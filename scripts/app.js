@@ -1,8 +1,8 @@
 let a = parseFloat(prompt('Enter Number for a'));
 let b = parseFloat(prompt('Enter Number for b'));
 
-let isEqual = (a==b) ;
-let isStrictEqual = (a===b);
+var isEqual = (a==b) ;
+var isStrictEqual = (a===b);
 var isNotEqual = (a!=b);
 var isStrictNotEqual = (a!==b);
 var add = a+b;
